@@ -1,5 +1,5 @@
 html, body {
-        height: 100%;
+    height: 100%;
     font-family: sans-serif;
     background-color: #6394ef;
 }
@@ -11,6 +11,10 @@ html, body {
     align-items: center;
 }
 
+.todo-title {
+    text-align: center;
+}
+
 .todo-container {
     width: 80%;
     height: 60%;
@@ -18,8 +22,6 @@ html, body {
     background-color: #0b1174;
     border-radius: 20px;
     color: white;
-    text-align: center;
-    box-sizing: border-box;
 }
 
 .input-container {
@@ -43,22 +45,25 @@ html, body {
     border-radius: 5px;
 }
 
-.todo-list {
-    list-style-type: none;
-}
-
-
 .todo-list-item {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     margin-bottom: 10px;
-    overflow-wrap: auto;
+    vertical-align: bottom;
+    align-items: center;
 }
-.todo-list-item button {
+
+.deleteButton {
+    margin-left: 35px;
+    justify-content: center;
+    height: 25px;
     border: none;
     border-radius: 5px;
     background-color: #f8e809;
     color: #000000;
     cursor: pointer;
-    height: 18px;
+}
+
+.todo-list {
+    
 }
